@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Global Marine Services</title>
+  <link rel="stylesheet" href="web.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+
+    
+  </style>
+</head>
+<body>
+
+<header class="navbar">
+  <div class="logo-container">
+    <img src="logop.jpg" alt="logo" class="logo">
+    <h1>GLOBAL <span>MARINE</span> SERVICES</h1>
+  </div>
+
+
+  <!-- Hamburger Icon -->
+  <div class="hamburger" id="hamburger">&#9776;</div>
+  </header>
+  <!-- Nav Links -->
+  <nav class="nav-menu" id="navMenu">
+    
+    <a href="#about">About</a> <!-- ✅ fixed this -->
+    <div class="dropdown">
+      <a href="#courses">Courses</a>
+      <div class="dropdown-content">
+        
+      </div>
+    </div>
+    
+
+    <a href="#contact">Contact Us</a>
+    <div class="dropdown">
+      <button class="dropbtn">View More</button>
+      <div class="dropdown-content">
+        <a href="#">Gallery</a>
+        <a href="#">About Us</a>
+      </div>
+    </div>
+    
+
+
+  </nav>
+</header>
+
+<!-- CAROUSEL -->
+
+    <div class="carousel-container">
+  <div class="carousel">
+    <div class="slide active">
+      <img src="bck.jpg" alt="Slide 1" />
+      <div class="overlay">
+        <h2>Our Mission</h2>
+        <p>Work abroad: let us guide you.</p>
+        <p>New workforce models and possibilities.</p>
+      </div>
+    </div>
+
+    <div class="slide">
+      <img src="mst.jpeg" alt="Slide 2" />
+      <div class="overlay">
+        <h2>Global Careers</h2>
+        <p>Explore opportunities across the world.</p>
+        <p>Trusted by 300+ clients in 25+ countries.</p>
+      </div>
+    </div>
+
+    <div class="slide">
+      <img src="mut.jpg" alt="Slide 3" />
+      <div class="overlay">
+        <h2>Training Excellence</h2>
+        <p>Industry-grade skill development.</p>
+        <p>Preparing candidates for success abroad.</p>
+      </div>
+    </div>
+  </div>
+
+  <button class="btn left">&#8249;</button>
+  <button class="btn right">&#8250;</button>
+</div>
+
+
+
+<!-- ABOUT SECTION -->
+
+
+
+<section id="about" class="about-section">
+  <div class="about-container">
+    <div class="about-images">
+      <div class="circle-img">
+        <img src="img1.jpg" alt="Team Meeting" />
+      </div>
+      <div class="circle-img small">
+        <img src="img2.jpg" alt="Team Member" />
+      </div>
+      <div class="circle-img smaller">
+        <img src="img3.jpg" alt="Discussion" />
+      </div>
+    </div>
+
+    <div class="about-content">
+      <h2>Know About <span>Global Marine Services</span></h2>
+      <p>
+        To join the Merchant Navy, aspiring seafarers typically need to complete either 10th or 12th grade education<br> meet specific age and medical requirements, possess good English communication skills, and have a valid passport. 
+      </p>
+      <div class="card-grid">
+      <!-- Mission Card -->
+      <div class="service-card animate">
+        <img src="mission.jpg" alt="Mission" class="service-icon" />
+        <h3 class="service-title">Mission</h3>
+        <p class="service-text">Friendly, skilled, and effective hiring to match the right talent with the right jobs.</p>
+      </div>
+
+      <!-- Value Proposition Card -->
+      <div class="service-card animate">
+        <img src="value.jpg" alt="Value Proposition" class="service-icon" />
+        <h3 class="service-title">Value Proposition</h3>
+        <p class="service-text">Quality-focused recruitment, backed by proven sourcing and management strategies.</p>
+      </div>
+    </div>
+  </div>
+</section>
+  
+<section class="stats-section">
+  <div class="stat-box blue">
+    <i class="fas fa-users"></i>
+    <h2 class="counter" data-target="5072">0</h2>
+    <p>Recruited Candidates</p>
+  </div>
+  <div class="stat-box skyblue">
+    <i class="fas fa-ship"></i>
+    <h2 class="counter" data-target="10">0</h2>
+    <p>Country</p>
+  </div>
+  <div class="stat-box green">
+    <i class="fas fa-star"></i>
+    <h2 class="counter" data-target="300">0</h2>
+    <p>Clients</p>
+  </div>
+</section>
+    
+  
+  
+  <h1>Our <span>Facilities</span> at Training center</h1>
+  <p>At our training center we teach our candidate the skill and attribute that will enable and prepare them for their new change at assignment. Especially emphasis is placed on awareness of life and environment of job, code of conduct and hygiene, safety, security and environment.</p>
+
+  <div class="facilities">
+    <div class="facility">
+      <img src="cs.jpg" alt="Furnished Classrooms">
+      <div class="Furnished classrooms">
+      <p>(audio. Visual system)</p>
+    </div>
+    </div>
+
+    
+
+    
+
+    <div class="facility">
+      <img src="rcs.jpg" alt="Recreation Hall">
+      
+      <div class="Recreation hall">
+      <p>Recreation Hall</p>
+    </div>
+    </div>
+
+  </div>
+
+  
+
+  
+
+  
+<!-- TOGGLE MENU SCRIPT -->
+<script>
+  function toggleMenu() {
+    const menu = document.getElementById('navLinks');
+    menu.classList.toggle('active');
+  }
+</script>
+
+
+
+<div class="clients">
+  <h1>Our Clients Say</h1>
+  <div class="slider-container">
+    <div class="slider-wrapper" id="slider">
+      <div class="client">
+        <img src="sal.jpg" alt="Salsabeel Shipping">
+        <p>It has been a reliable logistics partner for years.<br>
+     professional, efficient, and always responsive.<br>
+    We highly recommend their services for global shipping needs.</span></p>
+      </div>
+      <div class="client">
+        <img src="fleet.jpg" alt="Fleet Line Shipping">
+        <p>It is consistently delivers on time with great care.<br>
+    Their attention to detail sets them apart in the shipping industry.</p>
+      </div>
+      <div class="client">
+        <img src="ocs.jpg" alt="Blue Ocean Supplies">
+        <p>Blue Ocean Supplies has been instrumental in streamlining our supply chain.<br>
+    Their commitment to quality and reliability is unmatched.</p>
+      </div>
+      <div class="client">
+        <img src="m1.jpg" alt="Marine One Transport">
+        <p>Marine One Transport has exceeded our expectations in every shipment.<br>
+    Their global logistics support is fast, secure, and dependable.</p>
+        
+      </div>
+      <div class="client">
+        <img src="mas.jpg" alt="Massi Shipping LLC">
+        <p>Massi Shipping LLC </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="dots" id="dots">
+    <div class="dot active" onclick="goToSlide(0)"></div>
+    <div class="dot" onclick="goToSlide(1)"></div>
+        <div class="dot" onclick="goToSlide(2)"></div>
+        <div class="dot" onclick="goToSlide(3)"></div>
+        <div class="dot" onclick="goToSlide(4)"></div>
+        
+        </div>
+
+
+      </div>
+
+<!-- Courses Section -->
+<section id="courses" class="courses-section">
+  <h2>Our Courses</h2>
+  <div class="course-carousel">
+    <div class="course-slide">
+      <!-- Cards will be inserted here by JS -->
+    </div>
+  </div>
+</section>
+
+<section class="contact-section" id="contact">
+  <h2>Get in touch</h2>
+  <form id="contact-form">
+    <input type="text" name="user_name" placeholder="Your Name" required />
+    <input type="email" name="user_email" placeholder="Your E-Mail" required />
+    <textarea name="message" placeholder="Write Message ..." required></textarea>
+    <button type="submit">Submit <i class="fas fa-arrow-right"></i></button>
+  </form>
+</section>
+
+<!-- Font Awesome and EmailJS CDN -->
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+<script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+
+
+
+
+<footer class="footer">
+  <div class="footer-container">
+    <div class="footer-section contact">
+      <h3>Global Marine Services(Corporate Contact)</h3>
+      <p><i class="fas fa-map-marker-alt"></i> Srikakulam</p>
+      <p><i class="fas fa-phone-alt"></i> +91-9704496034</p>
+      
+      <p><i class="fas fa-envelope"></i> globalmarineservices2004@gmail.com</p>
+      <p><i class="fas fa-bookmark"></i> DG Shipping RPSL No. MUM-404</p>
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+    </div>
+
+    
+
+    
+
+  <div class="footer-bottom">
+    <p>© 2025. <a href="#">madhu group</a>, All Right Reserved. 
+      <a href="#">Terms & Conditions</a>. 
+      <a href="#">Privacy Policy</a>
+    </p>
+    <p>Developed by <a href="#">private</a></p>
+    <a href="#" class="scroll-top"><i class="fas fa-arrow-up"></i></a>
+  </div>
+</footer>
+
+
+
+
+
+<script src="script1.js"></script>
+</body>
+</html>
